@@ -6,6 +6,10 @@
     <title>Major Project</title>
     <!-- <link rel="shortcut icon" href="./icon.png" type="image/x-icon" /> -->
     <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
@@ -17,11 +21,11 @@
   </head>
 
   <body>
-    <div id="loader">
+    <!-- <div id="loader">
       <h1>MAJOR</h1>
       <h1>PROJECT</h1>
       <h1>By</h1>
-    </div>
+    </div> -->
     <div id="fixed-image"></div>
     <div id="main">
       <div id="page1">
@@ -36,7 +40,7 @@ src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c3
           /> -->
           <div id="nav-part2">
             <h4><a href="#">Works</a></h4>
-            <h4><a href="#">Team</a></h4>
+            <h4><a href="/about.html">Team</a></h4>
             <h4><a href="#">Contact</a></h4>
           </div>
           <h3>Menu</h3>
@@ -115,53 +119,31 @@ src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c3
         <div class="page-headings"><h6>Things We Do</h6></div>
 
         <div id="elem-container">
-          <div
-            id="elem1"
-            class="elem"
-            data-image="https://images.unsplash.com/photo-1701001308648-7b731a52b8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D"
-          >
+          <div id="elem1" class="elem" data-image=" /*images here */ ">
             <div class="overlay"></div>
             <h2>UI Designer</h2>
           </div>
-          <div
-            class="elem"
-            data-image="https://images.unsplash.com/photo-1700975928909-da4a46227a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8"
-          >
+          <div class="elem" data-image=" /*images here */ ">
             <div class="overlay"></div>
             <h2>UX Designer</h2>
           </div>
-          <div
-            class="elem"
-            data-image="https://images.unsplash.com/photo-1701077137611-9be394bf62f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D"
-          >
+          <div class="elem" data-image=" /*images here */ ">
             <div class="overlay"></div>
             <h2>Front-End Development</h2>
           </div>
-          <div
-            class="elem"
-            data-image="https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D"
-          >
+          <div class="elem" data-image=" /*images here */ ">
             <div class="overlay"></div>
             <h2>Website Development</h2>
           </div>
-          <div
-            class="elem"
-            data-image="https://images.unsplash.com/photo-1700924546093-f914fd5b8814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D"
-          >
+          <div class="elem" data-image="/*images here */ ">
             <div class="overlay"></div>
             <h2>Figma Designers</h2>
           </div>
-          <div
-            class="elem"
-            data-image="https://images.unsplash.com/photo-1700601437860-e66da79cf6d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D"
-          >
+          <div class="elem" data-image="/*images here */ ">
             <div class="overlay"></div>
             <h2>Post Creation</h2>
           </div>
-          <div
-            class="elem"
-            data-image="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OXx8fGVufDB8fHx8fA%3D%3D"
-          >
+          <div class="elem" data-image=" /*images here */ ">
             <div class="overlay"></div>
             <h2>Template Designing</h2>
           </div>
@@ -196,9 +178,31 @@ src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c3
       </div>
     </div>
     <div id="footer">
-      <!-- <div id="footer-div"></div> -->
-      <!-- <h1>Techrajs</h1> -->
-      <div id="footer-bottom"></div>
+      <div id="footer-upper">
+        <div class="footer-left">
+           <h1>Home</h1>
+          <h1>Our team</h1>
+          <h1>Contact Us</h1>
+        </div>
+        <div class="footer-right"><p>Get in touch 
+          with Us.</p></div>
+      </div>
+
+      <div id="footer-bottom">
+      <div class="footer-line-break"></div>
+      <div id="footer-wrapper">
+        <div class="footer-copyright">
+          <p>Copyright © TechRajs Creation.</p>
+        </div>
+        <div class="footer-location">
+          <div class="globe-icon"><i class="ri-map-pin-2-line"></i></div>
+          <p>Ahmedabad,Gujarat</p>
+        </div>
+        <div class="footer-socials"><p>Instagram</p>
+        </div>
+        <div class="footer-linkedin"><p>Linkedin</p></div>
+      </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
